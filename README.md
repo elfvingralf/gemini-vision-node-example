@@ -4,35 +4,35 @@ This repo is a NodeJS example of how to upload images and videos to Google's Gem
 
 It's intended to give a simple end-to-end example of making a Gemini API call with files.
 
-If you're new to Google Cloud and/or prefer a video tutorial of this project, I published one here (will add later)
+If you're new to Google Cloud and/or prefer [a video tutorial of this project](https://www.youtube.com/watch?v=y2MNU8SCiKQ).
 
 ## Getting started
 
 Prerequisite
 
 - NodeJS installed on your computer
-- A Google Cloud account
+- A Google Cloud account with a valid payment method
 
 ### Setting up project on your machine
 
 Clone the github repo
-`git clone ...`
+`git clone https://github.com/elfvingralf/gemini-vision-node-example`
 
-`yarn install`
+Navigate to the folder that was created, and then run `yarn install` to install the dependencies.
 
 If you're not familar with git you can do this instead:
 
-- Download the repo as a zip, or copy/paste the index.js code
-- go to terminal and run these commands in your folder:
+- Download the repo as a zip, or copy/paste the index.js code into a file on your computer
+- Open a terminal and run these commands in your folder:
   `yarn add macos-open-file-dialog, @google-cloud/vertexai, readline`
 
 Before you can run the project, we have to set up a Google cloud project for your Gemini API
 
 ### Setting up Gemini in Google cloud
 
-If you want a visual guide for the steps below, go to this video (at xx:xx)
+If you want a visual guide for the steps below, go to [04:40 in this video](https://www.youtube.com/watch?v=y2MNU8SCiKQ).
 
-- Go to https://console.cloud.google.com/
+- Go to [console.cloud.google.com](https://console.cloud.google.com/)
 - In the top right-hand corner, click the project selector box, then create a new project
 - Name your project and proceed (you don't need to select an organization)
 - After a few seconds the project should be created, then select it.
@@ -58,7 +58,7 @@ Once this is complete, you're ready to run your code
 
 ### Run the code
 
-Go to the folder in your terminal and run:
+Go to the folder in your terminal. If you haven't already run `yarn install` do that. Then run:
 `node index.js`
 
 I've included three example files in the project that I use in my video tutorial, but you can of course use any files.
@@ -67,4 +67,10 @@ The script will ask if you want to upload a file together with your prompt, and 
 
 ## Useful resources
 
-Will add a few links later
+- Gemini API documentation
+
+## About / contact
+
+I'm a self-taught and really like scrapping together fun projects. I write functional code that probably isn't beautiful nor efficient, and share it with the hope that someone else might find it useful.
+
+You can find me as [@ralfelfving](https://twitter.com/ralfelfving) on Twitter/X. If you liked this project, consider checking my tutorials on my YouTube channel [@ralfelfving](https://www.youtube.com/@ralfelfving).
