@@ -1,0 +1,12 @@
+{
+  "name": "gemini-vision-node-example",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Ralf Elfving <elfving.ralf@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@google-cloud/vertexai": "^0.1.3",
+    "macos-open-file-dialog": "^1.0.1",
+    "readline": "^1.3.0"
+  }
+}
