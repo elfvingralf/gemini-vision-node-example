@@ -2,9 +2,7 @@
 
 This repo is a NodeJS example of how to upload images and videos to Google's Gemini Vision API. It consists of a simple terminal-based user interface where you're asked if you want to upload a file, select which file, and provide your prompt, and get the response from Gemini.
 
-It's intended to give a simple end-to-end example of making a Gemini API call with files.
-
-If you're new to Google Cloud and/or prefer [a video tutorial of this project](https://www.youtube.com/watch?v=y2MNU8SCiKQ).
+It's intended to give a simple end-to-end example of making a Gemini API call with files, and is accompanied by a [video tutorial of this project](https://www.youtube.com/watch?v=y2MNU8SCiKQ).
 
 ## Getting started
 
@@ -67,7 +65,9 @@ The script will ask if you want to upload a file together with your prompt, and 
 
 ## Useful resources
 
-- Gemini API documentation
+I'll try to add a few more resources to help you extend on this repo/tutorial.
+
+- [Gemini API documentation](https://cloud.google.com/vertex-ai/docs/generative-ai/model-reference/gemini)
 
 ## About / contact
 
