@@ -4,6 +4,8 @@ This repo is a NodeJS example of how to upload images and videos to Google's Gem
 
 It's intended to give a simple end-to-end example of making a Gemini API call with files, and is accompanied by a [video tutorial of this project](https://www.youtube.com/watch?v=y2MNU8SCiKQ).
 
+<img width="867" alt="Example of the project in action" src="https://github.com/elfvingralf/gemini-vision-node-example/assets/94417497/0987ce2a-e96e-4ff7-9fc1-3c9213bd26dd">
+
 ## Getting started
 
 Prerequisite
